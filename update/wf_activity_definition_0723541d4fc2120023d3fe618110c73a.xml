@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_activity_definition">
+    <wf_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <action>false</action>
+        <attributes/>
+        <base_provider/>
+        <category/>
+        <default_height/>
+        <default_width/>
+        <description>jjj</description>
+        <image/>
+        <js_class_name>TestActivity_mar7</js_class_name>
+        <name>TestActivity_mar7</name>
+        <script><![CDATA[// Workflow activity definition handler class
+//
+// Implement activity definition handling in the onExecute method
+//
+// Implement any event handlers for the activity definition as a method named 'on[event_name]'
+//     For example, to handle the 'cancel' event, implement an 'onCancel' method
+//
+
+var TestActivity_mar7ActivityHandler = Class.create();
+TestActivity_mar7ActivityHandler.prototype = Object.extendsObject(WFActivityHandler, {
+
+   initialize: function() {
+      WFActivityHandler.prototype.initialize.call(this);
+   },
+
+   onExecute: function() {
+      // implement activity definition code here
+
+   },
+
+   type: 'TestActivity_mar7ActivityHandler'
+});]]></script>
+        <style/>
+        <sys_class_name>wf_activity_definition</sys_class_name>
+        <sys_created_by>jj</sys_created_by>
+        <sys_created_on>2016-03-07 22:22:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0723541d4fc2120023d3fe618110c73a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestActivity_mar7</sys_name>
+        <sys_package display_value="App_Mar7" source="x_snc_app_mar7">4ac748194fc2120023d3fe618110c748</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="App_Mar7">4ac748194fc2120023d3fe618110c748</sys_scope>
+        <sys_update_name>wf_activity_definition_0723541d4fc2120023d3fe618110c73a</sys_update_name>
+        <sys_updated_by>jj</sys_updated_by>
+        <sys_updated_on>2016-03-07 22:22:33</sys_updated_on>
+        <table>global</table>
+        <version_container_id/>
+    </wf_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0723541d4fc2120023d3fe618110c73a"/>
+</record_update>

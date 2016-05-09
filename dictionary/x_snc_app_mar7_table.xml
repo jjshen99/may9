@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="App_Mar7 Table" max_length="40" name="x_snc_app_mar7_table" type="collection"/>
+</database>
